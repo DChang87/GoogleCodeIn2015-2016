@@ -1,6 +1,6 @@
 name = input("What is your name?")
-weight = input("How much do you weigh in kg?")
-height = input("How tall are you in cm?")
+weight = float(input("How much do you weigh in kg?"))
+height = float(input("How tall are you in cm?"))
 BMI = weight/((height/100)**2)
 if BMI>25:
   print("You're overweight with a BMI of",BMI)
